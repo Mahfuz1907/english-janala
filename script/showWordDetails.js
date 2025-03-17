@@ -32,7 +32,7 @@ const showDetails = (data) => {
             </div>
             <div class="synonym flex flex-col justify-start items-start gap-3">
               <h1 class="text-2xl font-medium">সমার্থক শব্দ গুলো</h1>
-              <div id="synonym" class="flex flex-row justify-start items-start gap-3">
+              <div id="synonym" class="flex flex-col sm:flex-row justify-start items-start gap-3">
                 
               </div>
             </div>`;

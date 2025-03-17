@@ -50,7 +50,7 @@ const displayWords = (words) => {
               } / ${word.pronunciation}"</h1>
               </div>
               <div class="flex flex-row justify-between items-center w-full">
-                <button class="bg-[#1A91FF19] cursor-pointer hover:bg-white p-3 rounded-lg" onclick="showWordDetails(${
+                <button class="bg-[#1aa52d19] cursor-pointer hover:bg-white p-3 rounded-lg" onclick="showWordDetails(${
                   word.id
                 })">
                   <img
@@ -59,7 +59,7 @@ const displayWords = (words) => {
                     class="rounded-full w-6 h-6"
                   />
                 </button>
-                <button class="bg-[#1A91FF19] cursor-pointer hover:bg-white p-3 rounded-lg" onclick="pronouncedWord(${
+                <button class="bg-[#1aa52d19] cursor-pointer hover:bg-white p-3 rounded-lg" onclick="pronouncedWord(${
                   word.id
                 })">
                   <img

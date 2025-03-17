@@ -28,7 +28,7 @@
 
       .active {
         color: white;
-        background-color: #422ad5;
+        background-color: #1aa52d;
       }
     </style>
     <link rel="icon" href="assets/icons8-windows-16.png" type="image/png" />
@@ -43,7 +43,7 @@
   <body class="poppins">
     <nav
       id="nav"
-      class="z-10 fixed top-0 w-full border-b-2 border-[#C6BDBD] py-4 px-3 sm:px-14 bg-white bg-gradient-to-bl from-[#FFFFFF0D] from-28% via-black via-150% to-[#FFFFFF0D] to-24% flex flex-row justify-between items-center"
+      class="z-10 fixed top-0 w-full border-b-2 border-[#C6BDBD] py-4 px-3 sm:px-14 bg-white flex flex-row justify-between items-center"
     >
       <div
         class="flex flex-row gap-1 justify-start items-center cursor-pointer"
@@ -55,19 +55,19 @@
       <div class="flex flex-row gap-3">
         <button
           data-target="faq"
-          class="cursor-pointer hidden sm:flex flex-row gap-1 text-[#422AD5] hover:text-white hover:bg-[#422AD5] text-sm font-semibold px-5 py-3 border-2 border-[#422AD5] rounded-md"
+          class="cursor-pointer hidden sm:flex flex-row gap-1 text-[#1aa52d] hover:text-white hover:bg-[#1aa52d] text-sm font-semibold px-5 py-3 border-2 border-[#1aa52d] rounded-md"
         >
           <i class="fa-solid fa-circle-question text-lg"></i>FAQ
         </button>
         <button
           data-target="learn"
-          class="hover:text-white hover:bg-[#422AD5] cursor-pointer hidden sm:flex flex-row gap-1 text-[#422AD5] text-sm font-semibold px-5 py-3 border-2 border-[#422AD5] rounded-md"
+          class="hover:text-white hover:bg-[#1aa52d] cursor-pointer hidden sm:flex flex-row gap-1 text-[#1aa52d] text-sm font-semibold px-5 py-3 border-2 border-[#1aa52d] rounded-md"
         >
           <i class="fa-solid fa-book-open text-lg"></i>Learn
         </button>
         <button
           id="logout-btn"
-          class="hover:text-white hover:bg-[#422AD5] cursor-pointer flex flex-row gap-1 text-[#422AD5] text-sm font-semibold px-5 py-3 border-2 border-[#422AD5] rounded-md"
+          class="hover:text-white hover:bg-[#1aa52d] cursor-pointer flex flex-row gap-1 text-[#1aa52d] text-sm font-semibold px-5 py-3 border-2 border-[#1aa52d] rounded-md"
         >
           <i class="fa-solid fa-arrow-right-from-bracket text-lg"></i>
           Logout
@@ -83,7 +83,7 @@
       <!-- login section -->
       <div class="flex flex-col gap-7 justify-start items-start">
         <h1 class="text-black text-xl sm:text-4xl font-black">
-          <span class="text-blue-500">English</span> is Easy!!
+          <span class="text-[#1aa52d]">English</span> is Easy!!
         </h1>
         <p class="text-base sm:text-2xl font-medium hind-siliguri xl:w-[727px]">
           আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
@@ -105,7 +105,7 @@
         <button
           type="submit"
           id="login-btn"
-          class="cursor-pointer text-white hover:text-[#422AD5] hover:bg-white bg-[#422AD5] text-sm font-semibold px-5 py-3 rounded-md"
+          class="cursor-pointer text-white hover:text-[#1aa52d] hover:bg-white bg-[#1aa52d] text-sm font-semibold px-5 py-3 rounded-md"
         >
           Get Started
         </button>
@@ -117,7 +117,7 @@
       <!-- learn section  -->
       <div id="learn" class="flex flex-col gap-5 justify-center items-center">
         <h1 class="text-xl sm:text-4xl font-bold">
-          <span class="text-blue-500">Let's</span> Learn Vocabularies
+          <span class="text-[#1aa52d]">Let's</span> Learn Vocabularies
         </h1>
         <div
           id="learn-button"
@@ -128,7 +128,7 @@
         <div class="bg-[#F8F8F8] w-full py-10 rounded-lg">
           <!-- loader button here -->
           <div id="loader-word" class="text-center hidden py-10">
-            <span class="loading loading-dots loading-xl"></span>
+            <span class="loading loading-spinner text-[#1aa52d]"></span>
           </div>
           <!-- all the words -->
           <div
@@ -154,7 +154,7 @@
       <!-- question section  -->
       <div id="faq" class="flex flex-col gap-14 mt-32">
         <h1 class="text-4xl font-bold text-center">
-          <span class="text-blue-500">Frequently</span> Asked Questions
+          <span class="text-[#1aa52d]">Frequently</span> Asked Questions
         </h1>
         <div class="flex flex-col gap-5">
           <div
@@ -251,17 +251,17 @@
           class="modal-box flex flex-col justify-start items-start max-w-[80%] sm:max-w-[700px]"
         >
           <div id="loader-word-details" class="text-center py-10 hidden">
-            <span class="loading loading-dots loading-xl"></span>
+            <span class="loading loading-spinner text-[#1aa52d]"></span>
           </div>
           <div
             id="modal-content"
-            class="modal-content border-[#EDF7FF] border-2 rounded-xl px-5 py-8 w-full"
+            class="modal-content border-[#1aa52d19] border-2 rounded-xl px-5 py-8 w-full"
           ></div>
           <div class="modal-action">
             <form method="dialog">
               <!-- if there is a button in form, it will close the modal -->
               <button
-                class="btn bg-[#422AD5] text-white hover:text-[#422AD5] hover:bg-white py-1.5 px-5 rounded-xl"
+                class="btn bg-[#1aa52d] text-white hover:text-[#1aa52d] hover:bg-white py-1.5 px-5 rounded-xl"
               >
                 Complete Learning
               </button>

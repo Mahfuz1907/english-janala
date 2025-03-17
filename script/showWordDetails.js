@@ -49,7 +49,7 @@ const showDetails = (data) => {
     for (let sy of data.synonyms) {
       let synonym = document.createElement("button");
       synonym.classList =
-        "bg-[#EDF7FF] text-xl font-normal px-5 py-1.5 border-[#D7E4EF] border-[1px] rounded-md";
+        "bg-[#1aa52d19] text-xl font-normal px-5 py-1.5 border-[#1aa52d19] border-[1px] rounded-md";
       synonym.innerHTML = `${sy}`;
 
       synonymSection.appendChild(synonym);
